@@ -7,7 +7,7 @@
 }
 
 body {
-        background-color: #D9D9D9;
+        background-color: white;
         font-family: "Poppins", sans-serif;
         font-weight: 900;
         color: #A199F8;
@@ -45,8 +45,11 @@ body {
 
 .header--content h1 {
         font-size: 8rem;
-        color: white;
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
         font-weight: 900;
+        background-image: linear-gradient(to right, #7ed56f, #28b485);
 }
 
 .container__header {
@@ -75,7 +78,7 @@ body {
 }
 
 .btn {
-        margin-top: 5rem;
+        margin-top: 12rem;
         cursor: pointer;
         border: none;
         color: #A199F8;
